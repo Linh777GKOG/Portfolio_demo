@@ -64,3 +64,16 @@ button:hover {
 #overlay.show {
   display: initial;
 }
+
+/* === Header === */
+header {
+  position: absolute;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
