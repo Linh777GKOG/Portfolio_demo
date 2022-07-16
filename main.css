@@ -159,3 +159,11 @@ header {
   border-radius: 5px;
   transition: var(--smooth);
 }
+
+.navbar__icon:before {
+  transform: translateY(-12px);
+}
+
+.navbar__icon:after {
+  transform: translateY(12px);
+}
