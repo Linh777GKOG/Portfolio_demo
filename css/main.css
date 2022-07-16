@@ -353,3 +353,15 @@ header {
     text-align: initial;
   }
 }
+
+/* === Works === */
+#works {
+  padding-top: 10em;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#works h2 {
+  text-align: center;
+  color: var(--gray);
+}
