@@ -173,3 +173,10 @@ header {
   transform: translateX(-50px);
   background: transparent;
 }
+
+.open .navbar__icon:before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+.open .navbar__icon:after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
