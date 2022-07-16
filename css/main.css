@@ -310,3 +310,15 @@ header {
 .things__item img {
   padding-bottom: 4em;
 }
+.things__item--heading {
+  text-align: center;
+  color: var(--gray);
+}
+
+.things__item--heading p {
+  font-weight: 300;
+  line-height: 2em;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-top: 1em;
+}
