@@ -104,3 +104,15 @@ header {
   opacity: 1;
   transition: var(--smooth);
 }
+
+.navbar__link {
+  list-style: none;
+  margin: 55px;
+}
+
+.navbar__link a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  transition: var(--smooth);
+}
