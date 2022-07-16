@@ -116,3 +116,14 @@ header {
   font-weight: 300;
   transition: var(--smooth);
 }
+
+.navbar__link a:hover {
+  color: var(--green);
+  transition: var(--smooth);
+}
+
+.navbar__btn {
+  font-size: 1rem;
+  background-color: var(--green);
+  margin-left: 45px;
+}
