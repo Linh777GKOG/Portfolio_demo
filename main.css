@@ -41,3 +41,10 @@ button:hover {
   background-color: var(--green-l);
   transition: var(--smooth);
 }
+
+:root {
+  --green: #54b192;
+  --green-l: #a4cec0;
+  --gray: #3f3d56;
+  --smooth: all 0.3s ease-in;
+}
