@@ -48,7 +48,6 @@ button:hover {
   --gray: #3f3d56;
   --smooth: all 0.3s ease-in;
 }
-
 /* === Overlay === */
 #overlay {
   position: fixed;
@@ -229,6 +228,7 @@ header {
   padding-top: 4em;
   margin-bottom: 0.8em;
 }
+
 .banner__heading p {
   font-weight: 300;
   line-height: 2em;
@@ -310,6 +310,7 @@ header {
 .things__item img {
   padding-bottom: 4em;
 }
+
 .things__item--heading {
   text-align: center;
   color: var(--gray);
