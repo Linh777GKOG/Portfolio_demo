@@ -48,3 +48,19 @@ button:hover {
   --gray: #3f3d56;
   --smooth: all 0.3s ease-in;
 }
+
+/* === Overlay === */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 4;
+  display: none;
+}
+
+#overlay.show {
+  display: initial;
+}
