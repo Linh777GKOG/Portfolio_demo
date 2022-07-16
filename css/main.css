@@ -272,3 +272,24 @@ header {
     width: 60%;
   }
 }
+
+/* === Things === */
+#things {
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 15em;
+}
+
+#things h2 {
+  text-align: center;
+  color: var(--gray);
+  margin-bottom: 3em;
+}
+
+.things__dec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-60%);
+  z-index: -1;
+}
